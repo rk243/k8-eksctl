@@ -6,9 +6,8 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  containers:
-  - name: expense
-    instanceType: m5.large
-    desiredCapacity: 3
-    spot: true
+- name: expense
+  instanceType: m5.large
+  desiredCapacity: 3
+  spot: true
  
